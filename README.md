@@ -15,6 +15,9 @@ $ docker run -v /dev:/dev --privileged -it cblmarinerdemoaarch64 /bin/bash
 You now should be in the root of the container
 root@<container-id>:/#
 
-Setup build env 
-# This will take several minutes
-root@<container-id>:/# bash configure_buildenv.sh
+Setup build env
+``` 
+#This will take several minutes
+root@<container-id>:/# cd /tmp
+root@<container-id>:/tmp# bash configure_buildenv.sh
+```
